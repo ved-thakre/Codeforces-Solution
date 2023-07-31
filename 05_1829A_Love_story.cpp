@@ -21,4 +21,4 @@ int main(){
   return 0;
 } 
 
-// Problem link - 
+// Problem link - https://codeforces.com/contest/1829/problem/A
