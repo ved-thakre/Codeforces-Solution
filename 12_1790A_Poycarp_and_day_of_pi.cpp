@@ -18,7 +18,6 @@ int main(){
     ans.push_back(i);
   }
   for(auto i: ans) cout << i << endl;    
-  
   return 0;
 } 
 
