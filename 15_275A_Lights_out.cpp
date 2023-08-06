@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
 int main()
 {
     int x11, x12, x13, x21, x22, x23, x31, x32, x33;
@@ -11,3 +10,5 @@ int main()
     cout << ((x21 + x31 + x32) % 2 == 0 ? "1" : "0") << ((x22 + x31 + x32 + x33) % 2 == 0 ? "1" : "0") << ((x23 + x32 + x33) % 2 == 0 ? "1" : "0") << endl;
     return 0;
 }
+
+// Problem link - https://codeforces.com/problemset/problem/275/A
