@@ -21,4 +21,6 @@ int main(){
   for(auto i: temp) cout << i << endl;
       
   return 0;
-} 
+}
+
+// Problem link - https://codeforces.com/contest/1837/problem/B
