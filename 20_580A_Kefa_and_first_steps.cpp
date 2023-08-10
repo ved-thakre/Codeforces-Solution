@@ -17,3 +17,4 @@ int main(){
 }
 
 // Problem link - https://codeforces.com/contest/580/problem/A
+
