@@ -12,8 +12,7 @@ int main(){
     else temp = fi;
     maxi = max(maxi, temp);
   }
-  cout << maxi;
-      
+  cout << maxi;    
   return 0;
 } 
 
