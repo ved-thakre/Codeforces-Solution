@@ -2,19 +2,16 @@
 using namespace std;
          
 int main(){
-         
-  int n, sum = 0, cnt = 0;
-  cin >> n ;
-  int arr[n];
-  for(int i=0;i<n;i++){
-    cin >> arr[i];
-    sum += arr[i];
-  }
-  for(int i=0;i<n;i++)if((sum - arr[i])%2==0) cnt++;
-
-  cout << cnt;
+  
+  int a, b, c, d, misha = 0, vasya = 0;
+  cin >> a >> b >> c >> d;
+  misha = max(((3*a)/10), (a-((a/250)*c)));
+  vasya = max(((3*b)/10), (b-((b/250)*d)));
+  if(vasya < misha) cout <<"Misha";
+  else if(misha < vasya) cout << "Vasya";
+  else cout << "Tie";
       
   return 0;
-} 
+} // Cookies
 
-// Problem link - https://codeforces.com/problemset/problem/129/A
+// Problem link - https://codeforces.com/problemset/problem/501/A
