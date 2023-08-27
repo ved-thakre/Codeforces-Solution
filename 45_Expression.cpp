@@ -3,7 +3,7 @@ using namespace std;
          
 int main(){
          
-  int a, b, c , maxiadd = 0 , maxiprod = 0;
+  int a, b, c ,maxiadd = 0 ,maxiprod = 0;
   cin >> a >> b >> c;
   
   maxiadd = max((a*(b+c)),  (c*(a+b)));
