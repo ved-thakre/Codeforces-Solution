@@ -21,7 +21,7 @@ int main()
     }
     
     count+=d;
-
+    
     if(c<a){
         count+=c;
         a=a-c;
