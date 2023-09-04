@@ -12,10 +12,10 @@ int main(){
    while(j<s.size()){
         char c = s[j];
         bool fl = true;
-        if (c == 'A' || c == 'E' || c == 'O' || c == 'I' || c == 'U' || c == 'Y'){
+        if (c == 'A' || c == 'E' || c == 'O' || c == 'I' || c == 'U'){
             maxi = max(maxi, j-i);
             i = j;
-
+            fl = false;
         }
         j++;
         if(j == s.size() && fl) maxi = max(maxi, j - i);
