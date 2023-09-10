@@ -24,4 +24,6 @@ int main(){
    }
    cout << len * wid;   
    return 0;
-} 
+}
+
+// Problem link - https://codeforces.com/contest/1/problem/A
