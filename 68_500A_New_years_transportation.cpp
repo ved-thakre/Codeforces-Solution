@@ -19,5 +19,4 @@ int main()
     puts(x == t ? "YES" : "NO");
     return 0;
 }
-
 // Problem link - https://codeforces.com/problemset/problem/500/A
