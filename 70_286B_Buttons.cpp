@@ -10,3 +10,5 @@ int main()
     cout << (n - 1) * n * (n + 1) / 6 + n << endl;
     return 0;
 }
+
+// Problem link - https://codeforces.com/problemset/problem/268/B
