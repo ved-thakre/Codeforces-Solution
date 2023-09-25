@@ -20,3 +20,5 @@ int main()
     cout << fixed << r / 2.0 << endl;
     return 0;
 }
+
+// Problem link -> https://codeforces.com/problemset/problem/492/B
